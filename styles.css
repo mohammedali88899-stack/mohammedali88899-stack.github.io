@@ -680,3 +680,20 @@ h1 {
     align-items: center;
   }
 }
+
+.nav-cv-btn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(110, 168, 254, 0.35);
+  background: rgba(110, 168, 254, 0.08);
+  color: var(--primary) !important;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+}
+
+.nav-cv-btn:hover {
+  background: rgba(110, 168, 254, 0.18);
+  border-color: var(--primary);
+  transform: translateY(-1px);
+}
